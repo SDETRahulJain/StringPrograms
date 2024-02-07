@@ -27,7 +27,10 @@ string inputString = Console.ReadLine();
 
 //        Console.WriteLine("Common Prefix: " + commonPrefix);
 
-LongestSubstring lsub = new LongestSubstring();
-string longestSubstring = lsub.FindLongestSubstring(inputString);
+//LongestSubstring lsub = new LongestSubstring();
+//string longestSubstring = lsub.FindLongestSubstring(inputString);
 
-Console.WriteLine("Longest Substring without Repeating Characters: " + longestSubstring);
+//Console.WriteLine("Longest Substring without Repeating Characters: " + longestSubstring);
+
+StringToInt sti = new StringToInt();
+Console.WriteLine("Final Integer is " + sti.StringToInteger(inputString)); ;
